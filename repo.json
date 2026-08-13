@@ -1,0 +1,8 @@
+{
+	"name": "Enix Addons",
+	"description": "Enix",
+	"manifestVersion": 1,
+	"pluginLists": [
+		"https://raw.githubusercontent.com/farm911-tech/deneasd/app/plugins.json"
+	]
+}
