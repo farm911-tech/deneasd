@@ -1,11 +1,11 @@
 [
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dizimom.com&size=128",
-        "jarFileSize": 27664,
-        "fileHash": "sha256-248816b3bd65902a75f64a4ec90e0f0ef8595903dc616a4d3c31d691375edd01",
+        "jarFileSize": 28319,
+        "fileHash": "sha256-940e495c30308a64dc5ab3faf921ac1920fc89fcad3ca7b3bc879abec077823c",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 27664,
+        "fileSize": 28319,
         "status": 1,
         "authors": [
             "Enix"
@@ -14,21 +14,21 @@
             "TvSeries",
             "Movie"
         ],
-        "version": 112,
+        "version": 113,
         "internalName": "Dizimom Enix",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/DizimomEnix.jar",
         "description": "Dizimom Enix Provider - Diziler & Filmler",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/DizimomEnix.cs3",
         "name": "Dizimom Enix",
-        "jarHash": "sha256-248816b3bd65902a75f64a4ec90e0f0ef8595903dc616a4d3c31d691375edd01"
+        "jarHash": "sha256-940e495c30308a64dc5ab3faf921ac1920fc89fcad3ca7b3bc879abec077823c"
     },
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.selcuksportshd.is&size=128",
-        "jarFileSize": 35107,
-        "fileHash": "sha256-3e4818290345da7ee5173f97cdb8adb5722df3fe0c9584adbe45135f6d1fa046",
+        "jarFileSize": 35857,
+        "fileHash": "sha256-ab916e6a36bd741a5361db5ee310b124b86e3dc4ee4571d398406cee3472c782",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 35107,
+        "fileSize": 35857,
         "status": 1,
         "authors": [
             "Enix"
@@ -36,21 +36,21 @@
         "tvTypes": [
             "Live"
         ],
-        "version": 115,
+        "version": 116,
         "internalName": "Selcuksports",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Selcuksports.jar",
         "description": "Selcuksports Canlı Maç ve TV Yayınları",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Selcuksports.cs3",
         "name": "Selcuksports",
-        "jarHash": "sha256-3e4818290345da7ee5173f97cdb8adb5722df3fe0c9584adbe45135f6d1fa046"
+        "jarHash": "sha256-ab916e6a36bd741a5361db5ee310b124b86e3dc4ee4571d398406cee3472c782"
     },
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://rekortv358.com&size=128",
-        "jarFileSize": 26009,
-        "fileHash": "sha256-bd0e40e65bd18a6a945849478d531f47524e378687f2da869b00a532c6385fd6",
+        "jarFileSize": 26452,
+        "fileHash": "sha256-cfedfc664da8a03b8bf15d96396edf1a21d97de26df922db3b7ccf5f81a6070b",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 26009,
+        "fileSize": 26452,
         "status": 1,
         "authors": [
             "Enix"
@@ -58,21 +58,21 @@
         "tvTypes": [
             "Live"
         ],
-        "version": 110,
+        "version": 111,
         "internalName": "RekorTV",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/RekorTV.jar",
         "description": "RekorTV Canlı Maç ve TV Yayınları",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/RekorTV.cs3",
         "name": "RekorTV",
-        "jarHash": "sha256-bd0e40e65bd18a6a945849478d531f47524e378687f2da869b00a532c6385fd6"
+        "jarHash": "sha256-cfedfc664da8a03b8bf15d96396edf1a21d97de26df922db3b7ccf5f81a6070b"
     },
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.hdfilmcehennemi.com&size=128",
-        "jarFileSize": 35975,
-        "fileHash": "sha256-9fecda0ca1dc19f086ca40d71dff86821571778e59f030fecec5d476a4bc65ad",
+        "jarFileSize": 36666,
+        "fileHash": "sha256-d2ae49f06de187110f947c09697826dc6adbeff8d808f664e8bdd664ef2ac300",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 35975,
+        "fileSize": 36666,
         "status": 1,
         "authors": [
             "Enix"
@@ -81,12 +81,12 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 133,
+        "version": 134,
         "internalName": "Hdfilmcehennemi",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Hdfilmcehennemi.jar",
         "description": "Hdfilmcehennemi HD Film ve Dizi",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Hdfilmcehennemi.cs3",
         "name": "Hdfilmcehennemi",
-        "jarHash": "sha256-9fecda0ca1dc19f086ca40d71dff86821571778e59f030fecec5d476a4bc65ad"
+        "jarHash": "sha256-d2ae49f06de187110f947c09697826dc6adbeff8d808f664e8bdd664ef2ac300"
     }
 ]
