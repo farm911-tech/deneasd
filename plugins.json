@@ -91,11 +91,11 @@
     },
     {
         "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzGUOwGqthTMQbIxD8XjDuhF1gopxiZg8oyAm21CQXo5AYRID2HF2DrYXnGkzpjFAbnRQl4ip2rZtLPHXNK5EYqwtYsEOAK1Fs2XmffuhhTC_8d6rXybOH8csJYGLXPNrGuSYHlqbTYlKQ-g3Pu7QfxQIIvvYR9EUzTlLqcGDP3Ud_jJWu9JrZyOEEDfS5/s1600/k-yayinbasliyorr.webp",
-        "jarFileSize": 16803,
-        "fileHash": "sha256-52785f385bdea6735c820826f74db288490644b1fd4587a781d8478419a57da9",
+        "jarFileSize": 16746,
+        "fileHash": "sha256-78793d06603a97b5d5f037ff118a02798f959c854842eb3697b6c350be8ba04f",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 16803,
+        "fileSize": 16746,
         "status": 1,
         "authors": [
             "Enix"
@@ -103,12 +103,12 @@
         "tvTypes": [
             "Live"
         ],
-        "version": 100,
+        "version": 101,
         "internalName": "Kralbozguncu",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Kralbozguncu.jar",
         "description": "Kralbozguncu Canlı Maç ve TV Yayınları",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Kralbozguncu.cs3",
         "name": "Kralbozguncu",
-        "jarHash": "sha256-52785f385bdea6735c820826f74db288490644b1fd4587a781d8478419a57da9"
+        "jarHash": "sha256-78793d06603a97b5d5f037ff118a02798f959c854842eb3697b6c350be8ba04f"
     }
 ]
