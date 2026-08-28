@@ -24,11 +24,11 @@
     },
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.selcuksportshd.is&size=128",
-        "jarFileSize": 35857,
-        "fileHash": "sha256-ab916e6a36bd741a5361db5ee310b124b86e3dc4ee4571d398406cee3472c782",
+        "jarFileSize": 36998,
+        "fileHash": "sha256-97e02c3afdadbc6a92755357abc34d4e59fde6fbb33a87d004ab3f48c7cd5b97",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 35857,
+        "fileSize": 36998,
         "status": 1,
         "authors": [
             "Enix"
@@ -36,13 +36,13 @@
         "tvTypes": [
             "Live"
         ],
-        "version": 116,
+        "version": 117,
         "internalName": "Selcuksports",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Selcuksports.jar",
         "description": "Selcuksports Canlı Maç ve TV Yayınları",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Selcuksports.cs3",
         "name": "Selcuksports",
-        "jarHash": "sha256-ab916e6a36bd741a5361db5ee310b124b86e3dc4ee4571d398406cee3472c782"
+        "jarHash": "sha256-97e02c3afdadbc6a92755357abc34d4e59fde6fbb33a87d004ab3f48c7cd5b97"
     },
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://rekortv358.com&size=128",
@@ -88,5 +88,27 @@
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Hdfilmcehennemi.cs3",
         "name": "Hdfilmcehennemi",
         "jarHash": "sha256-d2ae49f06de187110f947c09697826dc6adbeff8d808f664e8bdd664ef2ac300"
+    },
+    {
+        "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzGUOwGqthTMQbIxD8XjDuhF1gopxiZg8oyAm21CQXo5AYRID2HF2DrYXnGkzpjFAbnRQl4ip2rZtLPHXNK5EYqwtYsEOAK1Fs2XmffuhhTC_8d6rXybOH8csJYGLXPNrGuSYHlqbTYlKQ-g3Pu7QfxQIIvvYR9EUzTlLqcGDP3Ud_jJWu9JrZyOEEDfS5/s1600/k-yayinbasliyorr.webp",
+        "jarFileSize": 16803,
+        "fileHash": "sha256-52785f385bdea6735c820826f74db288490644b1fd4587a781d8478419a57da9",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/farm911-tech/deneasd",
+        "fileSize": 16803,
+        "status": 1,
+        "authors": [
+            "Enix"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 100,
+        "internalName": "Kralbozguncu",
+        "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Kralbozguncu.jar",
+        "description": "Kralbozguncu Canlı Maç ve TV Yayınları",
+        "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Kralbozguncu.cs3",
+        "name": "Kralbozguncu",
+        "jarHash": "sha256-52785f385bdea6735c820826f74db288490644b1fd4587a781d8478419a57da9"
     }
 ]

@@ -159,6 +159,27 @@ def resolve_dizimom():
     return fallback
 
 # -------------------------------------------------------------
+# 5. Kralbozguncu Domain Resolver
+# -------------------------------------------------------------
+def resolve_kralbozguncu():
+    print("[*] Resolving Kralbozguncu domain...")
+    candidates = [
+        "https://kralbozguncu.xyz",
+        "https://bozguncutv.org",
+        "https://kralbozguncutv.com"
+    ]
+    for c in candidates:
+        final_url, content, status = fetch_url(c, timeout=6)
+        if status == 200 and content and ("kralbozguncu" in content.lower() or "script2.js" in content):
+            clean = final_url.rstrip("/")
+            print(f"  [+] Kralbozguncu active: {clean}")
+            return clean
+
+    fallback = "https://kralbozguncu.xyz"
+    print(f"  [-] Kralbozguncu fallback: {fallback}")
+    return fallback
+
+# -------------------------------------------------------------
 # Main Execution
 # -------------------------------------------------------------
 def main():
@@ -181,16 +202,18 @@ def main():
             last_rekor_num = int(match.group(1))
 
     # Resolve all concurrently
-    with concurrent.futures.ThreadPoolExecutor(max_workers=4) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         f_rekor = executor.submit(resolve_rekortv, last_rekor_num)
         f_selcuk = executor.submit(resolve_selcuksports)
         f_hdfilm = executor.submit(resolve_hdfilmcehennemi)
         f_dizimom = executor.submit(resolve_dizimom)
+        f_kral = executor.submit(resolve_kralbozguncu)
 
         rekortv_url = f_rekor.result()
         selcuk_url = f_selcuk.result()
         hdfilm_url = f_hdfilm.result()
         dizimom_url = f_dizimom.result()
+        kral_url = f_kral.result()
 
     result = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
@@ -198,7 +221,8 @@ def main():
             "rekortv": rekortv_url,
             "selcuksports": selcuk_url,
             "hdfilmcehennemi": hdfilm_url,
-            "dizimom": dizimom_url
+            "dizimom": dizimom_url,
+            "kralbozguncu": kral_url
         }
     }
 
