@@ -110,5 +110,27 @@
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Kralbozguncu.cs3",
         "name": "Kralbozguncu",
         "jarHash": "sha256-78793d06603a97b5d5f037ff118a02798f959c854842eb3697b6c350be8ba04f"
+    },
+    {
+        "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzGUOwGqthTMQbIxD8XjDuhF1gopxiZg8oyAm21CQXo5AYRID2HF2DrYXnGkzpjFAbnRQl4ip2rZtLPHXNK5EYqwtYsEOAK1Fs2XmffuhhTC_8d6rXybOH8csJYGLXPNrGuSYHlqbTYlKQ-g3Pu7QfxQIIvvYR9EUzTlLqcGDP3Ud_jJWu9JrZyOEEDfS5/s1600/k-yayinbasliyorr.webp",
+        "jarFileSize": 41176,
+        "fileHash": "sha256-bd98778f7dfedcda80953099621af483b499fe116ca3af3c4c0396ada9a962f2",
+        "apiVersion": 1,
+        "repositoryUrl": "https://github.com/farm911-tech/deneasd",
+        "fileSize": 41176,
+        "status": 1,
+        "authors": [
+            "Enix"
+        ],
+        "tvTypes": [
+            "Live"
+        ],
+        "version": 100,
+        "internalName": "EnixLive",
+        "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/EnixLive.jar",
+        "description": "Enix Live TV - Tüm Canlı Maçlar & TV Kanalları (Çoklu Kaynak)",
+        "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/EnixLive.cs3",
+        "name": "EnixLive",
+        "jarHash": "sha256-bd98778f7dfedcda80953099621af483b499fe116ca3af3c4c0396ada9a962f2"
     }
 ]
