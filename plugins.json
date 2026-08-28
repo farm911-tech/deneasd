@@ -46,11 +46,11 @@
     },
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://rekortv358.com&size=128",
-        "jarFileSize": 30487,
-        "fileHash": "sha256-a05dbde404366332d3ff8157ddc26bd4c637d7074470f7509fbec78ed3269d74",
+        "jarFileSize": 30332,
+        "fileHash": "sha256-ca1107cd6361d3aac8d00f33904657fcbcb0a392f10efcf4fd15d8a18567b61d",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 30487,
+        "fileSize": 30332,
         "status": 1,
         "authors": [
             "Enix"
@@ -58,13 +58,13 @@
         "tvTypes": [
             "Live"
         ],
-        "version": 113,
+        "version": 114,
         "internalName": "RekorTV",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/RekorTV.jar",
         "description": "RekorTV Canlı Maç ve TV Yayınları",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/RekorTV.cs3",
         "name": "RekorTV",
-        "jarHash": "sha256-a05dbde404366332d3ff8157ddc26bd4c637d7074470f7509fbec78ed3269d74"
+        "jarHash": "sha256-ca1107cd6361d3aac8d00f33904657fcbcb0a392f10efcf4fd15d8a18567b61d"
     },
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.hdfilmcehennemi.com&size=128",
