@@ -24,11 +24,11 @@
     },
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dizipal1578.com&size=128",
-        "jarFileSize": 30249,
-        "fileHash": "sha256-8fe720ab19cb5e3f888a04b1d774650c463a4a9285c6d90b08470360d3dc7b64",
+        "jarFileSize": 30798,
+        "fileHash": "sha256-0267982f610a5895e7efb433c95eb8e23b661f7a55ffe3ab7ec44984adb8f213",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 30249,
+        "fileSize": 30798,
         "status": 1,
         "authors": [
             "Enix"
@@ -37,13 +37,13 @@
             "TvSeries",
             "Movie"
         ],
-        "version": 107,
+        "version": 108,
         "internalName": "Dizipal",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Dizipal.jar",
         "description": "Dizipal - Dizi & Film (1080p, Dublaj, Altyazı)",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Dizipal.cs3",
         "name": "Dizipal",
-        "jarHash": "sha256-8fe720ab19cb5e3f888a04b1d774650c463a4a9285c6d90b08470360d3dc7b64"
+        "jarHash": "sha256-0267982f610a5895e7efb433c95eb8e23b661f7a55ffe3ab7ec44984adb8f213"
     },
     {
         "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzGUOwGqthTMQbIxD8XjDuhF1gopxiZg8oyAm21CQXo5AYRID2HF2DrYXnGkzpjFAbnRQl4ip2rZtLPHXNK5EYqwtYsEOAK1Fs2XmffuhhTC_8d6rXybOH8csJYGLXPNrGuSYHlqbTYlKQ-g3Pu7QfxQIIvvYR9EUzTlLqcGDP3Ud_jJWu9JrZyOEEDfS5/s1600/k-yayinbasliyorr.webp",
