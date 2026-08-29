@@ -180,6 +180,65 @@ def resolve_kralbozguncu():
     return fallback
 
 # -------------------------------------------------------------
+# 6. Dizipal Domain Resolver (Via t.ly/dizipalgiris -> Google Search)
+# -------------------------------------------------------------
+def resolve_dizipal(current_known_num=1578):
+    print("[*] Resolving Dizipal domain via t.ly/dizipalgiris...")
+    
+    tly_url = "https://t.ly/dizipalgiris"
+    final_url, content, status = fetch_url(tly_url, timeout=7)
+    
+    found_num = None
+    if content:
+        # 1. Look for Google search query link: /search?q=dizipal+1578
+        match = re.search(r'/search\?q=dizipal[^\d]*(\d+)', content, re.IGNORECASE)
+        if match:
+            found_num = int(match.group(1))
+            print(f"  [+] Extracted current Dizipal number from Google Search URL: {found_num}")
+        else:
+            # 2. Look for any dizipal{num}.com in the page
+            domain_match = re.search(r'dizipal(\d+)\.com', content, re.IGNORECASE)
+            if domain_match:
+                found_num = int(domain_match.group(1))
+                print(f"  [+] Extracted Dizipal domain from page: dizipal{found_num}.com")
+
+    # 3. Test the extracted domain
+    if found_num:
+        candidate_url = f"https://dizipal{found_num}.com"
+        f_url, c, st = fetch_url(candidate_url, timeout=5)
+        if st == 200 and c and ("dizipal" in c.lower() or "dizipals" in c.lower()):
+            clean = (f_url or candidate_url).rstrip("/")
+            print(f"  [+] Confirmed active Dizipal domain: {clean}")
+            return clean
+
+    # 4. Fallback: Test known current number
+    fallback_candidate = f"https://dizipal{current_known_num}.com"
+    f_url, c, st = fetch_url(fallback_candidate, timeout=5)
+    if st == 200 and c and ("dizipal" in c.lower() or "dizipals" in c.lower()):
+        clean = (f_url or fallback_candidate).rstrip("/")
+        print(f"  [+] Confirmed fallback Dizipal domain: {clean}")
+        return clean
+
+    # 5. Last resort scan around range
+    candidates = list(range(current_known_num - 5, current_known_num + 20))
+    def check_num(num):
+        url = f"https://dizipal{num}.com"
+        f_url, c, st = fetch_url(url, timeout=4)
+        if st == 200 and c and ("dizipal" in c.lower() or "dizipals" in c.lower()):
+            return (f_url or url).rstrip("/")
+        return None
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=15) as executor:
+        futures = {executor.submit(check_num, n): n for n in candidates}
+        for f in concurrent.futures.as_completed(futures):
+            res = f.result()
+            if res:
+                print(f"  [+] Dizipal found via scan: {res}")
+                return res
+
+    return f"https://dizipal{current_known_num}.com"
+
+# -------------------------------------------------------------
 # Main Execution
 # -------------------------------------------------------------
 def main():
@@ -201,19 +260,28 @@ def main():
         if match:
             last_rekor_num = int(match.group(1))
 
+    # Extract last known dizipal number if available
+    last_dizipal_num = 1578
+    if "domains" in prev_data and "dizipal" in prev_data["domains"]:
+        match = re.search(r'dizipal(\d+)\.com', prev_data["domains"]["dizipal"])
+        if match:
+            last_dizipal_num = int(match.group(1))
+
     # Resolve all concurrently
-    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
         f_rekor = executor.submit(resolve_rekortv, last_rekor_num)
         f_selcuk = executor.submit(resolve_selcuksports)
         f_hdfilm = executor.submit(resolve_hdfilmcehennemi)
         f_dizimom = executor.submit(resolve_dizimom)
         f_kral = executor.submit(resolve_kralbozguncu)
+        f_dizipal = executor.submit(resolve_dizipal, last_dizipal_num)
 
         rekortv_url = f_rekor.result()
         selcuk_url = f_selcuk.result()
         hdfilm_url = f_hdfilm.result()
         dizimom_url = f_dizimom.result()
         kral_url = f_kral.result()
+        dizipal_url = f_dizipal.result()
 
     result = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
@@ -222,7 +290,8 @@ def main():
             "selcuksports": selcuk_url,
             "hdfilmcehennemi": hdfilm_url,
             "dizimom": dizimom_url,
-            "kralbozguncu": kral_url
+            "kralbozguncu": kral_url,
+            "dizipal": dizipal_url
         }
     }
 
