@@ -239,6 +239,31 @@ def resolve_dizipal(current_known_num=1578):
     return f"https://dizipal{current_known_num}.com"
 
 # -------------------------------------------------------------
+# 7. PatronFutbol Domain Resolver
+# -------------------------------------------------------------
+def resolve_patron(current_known_num=58):
+    print("[*] Resolving Patron domain...")
+    candidates = list(range(current_known_num, current_known_num + 30))
+    def check_p_num(num):
+        url = f"https://patronfutbol{num}.cfd"
+        f_url, c, st = fetch_url(url, timeout=5)
+        if st == 200 and c and ("patron" in c.lower() or "patronsports" in c.lower()):
+            return (f_url or url).rstrip("/")
+        return None
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
+        futures = {executor.submit(check_p_num, n): n for n in candidates}
+        for f in concurrent.futures.as_completed(futures):
+            res = f.result()
+            if res:
+                print(f"  [+] Patron active: {res}")
+                return res
+
+    fallback = f"https://patronfutbol{current_known_num}.cfd"
+    print(f"  [-] Patron fallback: {fallback}")
+    return fallback
+
+# -------------------------------------------------------------
 # Main Execution
 # -------------------------------------------------------------
 def main():
@@ -267,14 +292,22 @@ def main():
         if match:
             last_dizipal_num = int(match.group(1))
 
+    # Extract last known patron number if available
+    last_patron_num = 58
+    if "domains" in prev_data and "patron" in prev_data["domains"]:
+        match = re.search(r'patronfutbol(\d+)\.cfd', prev_data["domains"]["patron"])
+        if match:
+            last_patron_num = int(match.group(1))
+
     # Resolve all concurrently
-    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=7) as executor:
         f_rekor = executor.submit(resolve_rekortv, last_rekor_num)
         f_selcuk = executor.submit(resolve_selcuksports)
         f_hdfilm = executor.submit(resolve_hdfilmcehennemi)
         f_dizimom = executor.submit(resolve_dizimom)
         f_kral = executor.submit(resolve_kralbozguncu)
         f_dizipal = executor.submit(resolve_dizipal, last_dizipal_num)
+        f_patron = executor.submit(resolve_patron, last_patron_num)
 
         rekortv_url = f_rekor.result()
         selcuk_url = f_selcuk.result()
@@ -282,6 +315,7 @@ def main():
         dizimom_url = f_dizimom.result()
         kral_url = f_kral.result()
         dizipal_url = f_dizipal.result()
+        patron_url = f_patron.result()
 
     result = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
@@ -291,7 +325,8 @@ def main():
             "hdfilmcehennemi": hdfilm_url,
             "dizimom": dizimom_url,
             "kralbozguncu": kral_url,
-            "dizipal": dizipal_url
+            "dizipal": dizipal_url,
+            "patron": patron_url
         }
     }
 

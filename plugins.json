@@ -47,11 +47,11 @@
     },
     {
         "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzGUOwGqthTMQbIxD8XjDuhF1gopxiZg8oyAm21CQXo5AYRID2HF2DrYXnGkzpjFAbnRQl4ip2rZtLPHXNK5EYqwtYsEOAK1Fs2XmffuhhTC_8d6rXybOH8csJYGLXPNrGuSYHlqbTYlKQ-g3Pu7QfxQIIvvYR9EUzTlLqcGDP3Ud_jJWu9JrZyOEEDfS5/s1600/k-yayinbasliyorr.webp",
-        "jarFileSize": 44211,
-        "fileHash": "sha256-4014fe461ef9f4d4ea7d2c4428a4777477a705f6eb753e92f763113bb46d61b1",
+        "jarFileSize": 47954,
+        "fileHash": "sha256-4c0f879b631ab3c4b501d141e30c3be44e13556d18c1a243268ff6922eb715e5",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 44211,
+        "fileSize": 47954,
         "status": 1,
         "authors": [
             "Enix"
@@ -59,13 +59,13 @@
         "tvTypes": [
             "Live"
         ],
-        "version": 102,
+        "version": 103,
         "internalName": "EnixLive",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/EnixLive.jar",
         "description": "Enix Live TV - Tüm Canlı Maçlar & TV Kanalları (Çoklu Kaynak)",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/EnixLive.cs3",
         "name": "EnixLive",
-        "jarHash": "sha256-4014fe461ef9f4d4ea7d2c4428a4777477a705f6eb753e92f763113bb46d61b1"
+        "jarHash": "sha256-4c0f879b631ab3c4b501d141e30c3be44e13556d18c1a243268ff6922eb715e5"
     },
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.hdfilmcehennemi.com&size=128",
