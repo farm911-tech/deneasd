@@ -69,11 +69,11 @@
     },
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.hdfilmcehennemi.com&size=128",
-        "jarFileSize": 42674,
-        "fileHash": "sha256-2e2ee348822e54208f61b034cb5d06e8b709b9a0aee12581bbde91ef96a16a51",
+        "jarFileSize": 42316,
+        "fileHash": "sha256-255a5145305b1f7ca6cd7e095ce89b44b0d33093a1628eef31ff170405e9e15e",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 42674,
+        "fileSize": 42316,
         "status": 1,
         "authors": [
             "Enix"
@@ -82,12 +82,12 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 137,
+        "version": 138,
         "internalName": "Hdfilmcehennemi",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Hdfilmcehennemi.jar",
         "description": "Hdfilmcehennemi HD Film ve Dizi",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Hdfilmcehennemi.cs3",
         "name": "Hdfilmcehennemi",
-        "jarHash": "sha256-2e2ee348822e54208f61b034cb5d06e8b709b9a0aee12581bbde91ef96a16a51"
+        "jarHash": "sha256-255a5145305b1f7ca6cd7e095ce89b44b0d33093a1628eef31ff170405e9e15e"
     }
 ]
