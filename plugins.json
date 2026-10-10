@@ -24,11 +24,11 @@
     },
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://dizipal1578.com&size=128",
-        "jarFileSize": 34500,
-        "fileHash": "sha256-8032acb90e9c12062a5ff709f88e849b7245af9e27f36b94b872d4a1c4e2d0cc",
+        "jarFileSize": 34501,
+        "fileHash": "sha256-bde4f5e61bf21171fd20fcc755d90ce4777607db2ba56f24f57118aff230c23a",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 34500,
+        "fileSize": 34501,
         "status": 1,
         "authors": [
             "Enix"
@@ -37,21 +37,21 @@
             "TvSeries",
             "Movie"
         ],
-        "version": 110,
+        "version": 111,
         "internalName": "Dizipal",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Dizipal.jar",
         "description": "Dizipal - Dizi & Film (1080p, Dublaj, Altyazı)",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Dizipal.cs3",
         "name": "Dizipal",
-        "jarHash": "sha256-8032acb90e9c12062a5ff709f88e849b7245af9e27f36b94b872d4a1c4e2d0cc"
+        "jarHash": "sha256-bde4f5e61bf21171fd20fcc755d90ce4777607db2ba56f24f57118aff230c23a"
     },
     {
         "iconUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgzGUOwGqthTMQbIxD8XjDuhF1gopxiZg8oyAm21CQXo5AYRID2HF2DrYXnGkzpjFAbnRQl4ip2rZtLPHXNK5EYqwtYsEOAK1Fs2XmffuhhTC_8d6rXybOH8csJYGLXPNrGuSYHlqbTYlKQ-g3Pu7QfxQIIvvYR9EUzTlLqcGDP3Ud_jJWu9JrZyOEEDfS5/s1600/k-yayinbasliyorr.webp",
-        "jarFileSize": 74356,
-        "fileHash": "sha256-546b73796e8f31412379a94ea4930f63082977a74a93f6de1b0d06b3c7b3c090",
+        "jarFileSize": 68366,
+        "fileHash": "sha256-3036a67335ad0e07d0ac81eb10718d84370ad29a63a0bc39399f71f52fdb9e82",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 74356,
+        "fileSize": 68366,
         "status": 1,
         "authors": [
             "Enix"
@@ -59,21 +59,21 @@
         "tvTypes": [
             "Live"
         ],
-        "version": 115,
+        "version": 116,
         "internalName": "EnixLive",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/EnixLive.jar",
         "description": "Enix Live TV - Tüm Canlı Maçlar & TV Kanalları (Çoklu Kaynak)",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/EnixLive.cs3",
         "name": "EnixLive",
-        "jarHash": "sha256-546b73796e8f31412379a94ea4930f63082977a74a93f6de1b0d06b3c7b3c090"
+        "jarHash": "sha256-3036a67335ad0e07d0ac81eb10718d84370ad29a63a0bc39399f71f52fdb9e82"
     },
     {
         "iconUrl": "https://t1.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.hdfilmcehennemi.com&size=128",
-        "jarFileSize": 42316,
-        "fileHash": "sha256-255a5145305b1f7ca6cd7e095ce89b44b0d33093a1628eef31ff170405e9e15e",
+        "jarFileSize": 40899,
+        "fileHash": "sha256-752a5170440e0af1a8c11af27bad2b83a57c459c57bde35e00cce5da66b60763",
         "apiVersion": 1,
         "repositoryUrl": "https://github.com/farm911-tech/deneasd",
-        "fileSize": 42316,
+        "fileSize": 40899,
         "status": 1,
         "authors": [
             "Enix"
@@ -82,12 +82,12 @@
             "Movie",
             "TvSeries"
         ],
-        "version": 138,
+        "version": 139,
         "internalName": "Hdfilmcehennemi",
         "jarUrl": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Hdfilmcehennemi.jar",
         "description": "Hdfilmcehennemi HD Film ve Dizi",
         "url": "https://raw.githubusercontent.com/farm911-tech/deneasd/app/Hdfilmcehennemi.cs3",
         "name": "Hdfilmcehennemi",
-        "jarHash": "sha256-255a5145305b1f7ca6cd7e095ce89b44b0d33093a1628eef31ff170405e9e15e"
+        "jarHash": "sha256-752a5170440e0af1a8c11af27bad2b83a57c459c57bde35e00cce5da66b60763"
     }
 ]
